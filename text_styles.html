@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="button.js"></script>
+    <title>Web Style Guide</title>
+
+</head>
+
+<body>
+    <div class="container-styles">
+        <div class="background-image"></div>
+        <h1>Welcome to my Web Style Guide</h1>
+        <nav>
+            <button><a href="./index.html" target="_parent">Home</a></button>
+            <button><a href="./colors.html" target="_parent">Colors</a></button>
+            <button><a href="./fonts.html" target="_parent">Fonts</a></button>
+            <button><a href="./buttons.html" target="_parent">Buttons</a></button>
+        </nav>
+        <div class="styles">
+            <section>
+                <h3>Headings</h3>
+                <div class="heading-list">
+
+                    <p class="fontsname">H1 - heading</p>
+                    <textarea id="textarea1" class="p1 p-all">h1 {
+                        display: block;
+                        font-size: 2em;
+                        margin-before: 0.67em;
+                        margin-after: 0.67em;
+                        margin-start: 0;
+                        margin-end: 0;
+                        font-weight: bold;
+                        }</textarea>
+                    <p id="copy-confirmation-1">
+                        <button class="copy" onclick="copyText('textarea1', 'copy-confirmation-1')">Copy</button>
+                    </p>
+
+                    <p class="fontsname">H2 - heading</p>
+                    <textarea id="textarea2" class="p2 p-all">h2 {
+                        display: block;
+                        font-size: 1.5em;
+                        margin-before: 0.83em;
+                        margin-after: 0.83em;
+                        margin-start: 0;
+                        margin-end: 0;
+                        font-weight: bold;
+                        }</textarea>
+                    <p id="copy-confirmation-2">
+                        <button class="copy" onclick="copyText('textarea2', 'copy-confirmation-2')">Copy</button>
+                    </p>
+
+                    <p class="fontsname">H3 - heading</p>
+                    <textarea id="textarea3" class="p3 p-all">h3 {
+                        display: block;
+                        font-size: 1.17em;
+                        margin-before: 1em;
+                        margin-after: 1em;
+                        margin-start: 0;
+                        margin-end: 0;
+                        font-weight: bold;
+                        }</textarea>
+                    <p id="copy-confirmation-3">
+                        <button class="copy" onclick="copyText('textarea3', 'copy-confirmation-3')">Copy</button>
+                    </p>
+
+                    <p class="fontsname">H4 - heading</p>
+                    <textarea id="textarea4" class="p4 p-all">h4 {
+                        display: block;
+                        margin-before: 1.33em;
+                        margin-after: 1.33em;
+                        margin-start: 0;
+                        margin-end: 0;
+                        font-weight: bold;
+                        }</textarea>
+                    <p id="copy-confirmation-4">
+                        <button class="copy" onclick="copyText('textarea4', 'copy-confirmation-4')">Copy</button>
+                    </p>
+
+                    <p class="fontsname">H5 - heading</p>
+                    <textarea id="textarea5" class="p5 p-all">h5 {
+                        display: block;
+                        font-size: .83em;
+                        margin-before: 1.67em;
+                        margin-after: 1.67em;
+                        margin-start: 0;
+                        margin-end: 0;
+                        font-weight: bold;
+                        }</textarea>
+                    <p id="copy-confirmation-5">
+                        <button class="copy" onclick="copyText('textarea5', 'copy-confirmation-5')">Copy</button>
+                    </p>
+
+                    <p class="fontsname">H6 - heading</p>
+                    <textarea id="textarea6" class="p6 p-all">h6 {
+                        display: block;
+                        font-size: .67em;
+                        margin-before: 2.33em;
+                        margin-after: 2.33em;
+                        margin-start: 0;
+                        margin-end: 0;
+                        font-weight: bold;
+                        }</textarea>
+                    <p id="copy-confirmation-6">
+                        <button class="copy" onclick="copyText('textarea6', 'copy-confirmation-6')">Copy</button>
+                    </p>
+
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

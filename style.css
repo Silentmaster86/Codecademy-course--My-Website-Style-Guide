@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 1400px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(./img/web.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.6;
+  z-index: -1;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 46px;
+  margin: 0 10%;
+  padding: 50px 0;
+  background-image: url(./img/header2.jpg);
+  background-position: center;
+  background-size: cover;
+  color: rgb(1, 30, 30);
+  width: 80%;
+  height: 100px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 10% 0;
+}
+
+button {
+  width: 95px;
+  height: 40px;
+  border-style: none;
+  border-radius: 10px;
+}
+
+/*styles for home page*/
+
+.home {
+  position: relative;
+  background-image: url(./img/welcome1.jpg);
+  background-size: cover;
+  background-position: center;
+  color: rgb(3, 25, 25);
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  letter-spacing: 3px;
+  line-height: 80px;
+  margin: 20px 10%;
+  padding: 30px 10%;
+  height: 350px;
+}
+
+/* styles for colors page*/
+
+.content {
+  position: relative;
+  color: rgb(28, 5, 5);
+  margin: 20px 10%;
+  padding: 50px 0;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  letter-spacing: 5px;
+  background-image: url(./img/header.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+table {
+  padding: 30px 40px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+h3 {
+  font-size: 38px;
+  text-align: center;
+
+}
+
+.themename {
+  font-size: 28px;
+  font-weight: bold;
+  background-color: rgba(0, 208, 255, 0.598);
+}
+
+td {
+  font-size: 24px;
+  font-weight: bold;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+}
+
+tbody {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+}
+
+/* styles for fonts page*/
+
+.fonts {
+  color: rgb(5, 40, 48);
+  margin: 30px 10%;
+  padding: 40px 0;
+  width: 80%;
+  font-weight: bold;
+  letter-spacing: 5px;
+  background-color: rgba(0, 255, 255, 0.767);
+  background-size: cover;
+  background-position: center;
+}
+
+.fontsname {
+  margin-top: 25px;
+  padding: 20px 10%;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: rgba(36, 132, 153, 0.414);
+}
+
+.fonts-list {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  font-size: 28px;
+}
+
+/*font-family: Lato*/
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/*font-family: Baskervville SC */
+
+.baskervville-sc-regular {
+  font-family: "Baskervville SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*font-family: Comic Neue*/
+
+.comic-neue-regular {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.comic-neue-bold {
+  font-family: "Comic Neue", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.comic-neue-regular-italic {
+  font-family: "Comic Neue", cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/*font-family: Sankofa Display*/
+
+.sankofa-display-regular {
+  font-family: "Sankofa Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/*styles for text styles page*/
+
+.container-styles {
+  position: relative;
+  width: auto;
+  height: 2250px;
+}
+
+.styles {
+  background-color: rgba(21, 220, 255, 0.673);
+  background-size: cover;
+  background-position: center;
+  color: rgb(3, 25, 25);
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 60px;
+  margin: 20px 10%;
+  padding: 5px 10%;
+  height: auto;
+}
+
+.heading-list {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.p-all {
+  border: none;
+  height: max-content;
+}
+
+.p1 {
+  font-size: 2em;
+}
+
+.p2 {
+  font-size: 1.5em;
+}
+
+.p3 {
+  font-size: 1.17em;
+}
+
+.p4 {
+  font-size: 1em;
+}
+
+.p5 {
+  font-size: .83em;
+}
+
+.p6 {
+  font-size: .67em;
+}
+
+/*copy button*/
+
+.copy {
+  display: flex;
+  float: right;
+  align-self: last baseline;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  background-color: darkcyan;
+}
+
+.copy:hover {
+  background-color: cornflowerblue;
+}
+
+.copy:focus {
+  background-color: aqua;
+  font-size: 16px;
+}
+
+#copy-confirmation {
+  color: green;
+  text-align: right;
+}

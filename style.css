@@ -215,13 +215,11 @@ tbody {
 /*styles for text styles page*/
 
 .container-styles {
-  position: relative;
-  width: auto;
-  height: 2250px;
+  background-color: #66afe9;
 }
 
 .styles {
-  background-color: rgba(21, 220, 255, 0.673);
+  background-color: rgba(21, 220, 255, 0.339);
   background-size: cover;
   background-position: center;
   color: rgb(3, 25, 25);
@@ -229,9 +227,10 @@ tbody {
   font-weight: bold;
   letter-spacing: 3px;
   line-height: 60px;
-  margin: 20px 10%;
-  padding: 5px 10%;
-  height: auto;
+  margin: 20px 10% 0;
+  padding: 10px 10%;
+  height: max-content;
+  border: none;
 }
 
 .heading-list {
@@ -241,33 +240,38 @@ tbody {
   gap: 30px;
 }
 
-.p-all {
-  border: none;
-  height: max-content;
+textarea {
+  width: auto;
+  /* Set a auto width*/
+  height: 260px;
+  /* Set a fixed height */
+  padding: 10px;
+  /* Padding*/
+  font-size: 24px;
+  /* Font size*/
+  font-family: Arial, sans-serif;
+  /* Font style */
+  color: #333333;
+  /* Text color */
+  background-color: #fab8b896;
+  /* Background color */
+  border: 1px solid #ccc;
+  /* Border around the textarea */
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 4px 8px 7px rgba(0, 0, 0, 0.757);
+  /* Subtle shadow */
+  resize: vertical;
+  /* Only allow vertical resizing */
+  outline: none;
+  /* Remove default focus outline */
 }
 
-.p1 {
-  font-size: 2em;
-}
-
-.p2 {
-  font-size: 1.5em;
-}
-
-.p3 {
-  font-size: 1.17em;
-}
-
-.p4 {
-  font-size: 1em;
-}
-
-.p5 {
-  font-size: .83em;
-}
-
-.p6 {
-  font-size: .67em;
+textarea:focus {
+  border-color: #66afe9;
+  /* Change border color on focus */
+  box-shadow: 0 0 10px rgba(102, 174, 233, 0.699);
+  /* Glow effect on focus */
 }
 
 /*copy button*/

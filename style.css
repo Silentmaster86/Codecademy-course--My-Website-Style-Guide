@@ -6,18 +6,18 @@
 .container {
   position: relative;
   width: 100%;
-  height: 1400px;
+  height: 600px;
 }
 
 .background-image {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background-image: url(./img/web.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
   opacity: 0.6;
   z-index: -1;
 }
@@ -43,7 +43,7 @@ nav {
   margin: 20px 10% 0;
 }
 
-button {
+.button {
   width: 95px;
   height: 40px;
   border-style: none;
@@ -76,7 +76,7 @@ button {
 /* styles for colors page*/
 
 .content {
-  position: relative;
+  position: absolute;
   color: rgb(28, 5, 5);
   margin: 20px 10%;
   padding: 50px 0;
@@ -89,7 +89,7 @@ button {
   letter-spacing: 5px;
   background-image: url(./img/header.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 table {
@@ -144,7 +144,7 @@ tbody {
   padding: 20px 10%;
   font-size: 28px;
   font-weight: bold;
-  background-color: rgba(36, 132, 153, 0.414);
+  background-color: rgba(36, 132, 153, 0.925);
 }
 
 .fonts-list {
@@ -214,12 +214,8 @@ tbody {
 
 /*styles for text styles page*/
 
-.container-styles {
-  background-color: #66afe9;
-}
-
 .styles {
-  background-color: rgba(21, 220, 255, 0.339);
+  background-color: rgba(3, 161, 188, 0.608);
   background-size: cover;
   background-position: center;
   color: rgb(3, 25, 25);
@@ -270,7 +266,7 @@ textarea {
 textarea:focus {
   border-color: #66afe9;
   /* Change border color on focus */
-  box-shadow: 0 0 10px rgba(102, 174, 233, 0.699);
+  box-shadow: 0 0 10px rgba(102, 174, 233, 0.361);
   /* Glow effect on focus */
 }
 
@@ -299,4 +295,203 @@ textarea:focus {
 #copy-confirmation {
   color: green;
   text-align: right;
+}
+
+/*styles for buttons page*/
+
+.buttons {
+  background-color: rgba(21, 220, 255, 0.743);
+  background-size: cover;
+  background-position: center;
+  color: rgb(3, 25, 25);
+  margin: 20px 10% 0;
+  padding: 50px 10%;
+}
+
+.button-size {
+  background-color: #555555;
+  color: aqua;
+  display: inline-block;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.list p {
+  padding: 20px 20px;
+  background-color: rgba(78, 130, 132, 0.302);
+  font-size: 28px;
+}
+
+.button1 {
+  background-color: #008000;
+}
+
+.button2 {
+  background-color: #008CBA;
+}
+
+.button3 {
+  background-color: #f44336;
+}
+
+.button4 {
+  background-color: #e7e7e7;
+  color: black;
+}
+
+.button5 {
+  background-color: #555555;
+}
+
+/*styles for button sizes*/
+.button1s {
+  font-size: 10px;
+}
+
+.button2s {
+  font-size: 12px;
+}
+
+.button3s {
+  font-size: 16px;
+}
+
+.button4s {
+  font-size: 20px;
+}
+
+.button5s {
+  font-size: 24px;
+}
+
+/*styles for Rounded buttons*/
+
+.button-round {
+  background-color: #555555;
+  color: aqua;
+  border: none;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1r {
+  border-radius: 2px;
+}
+
+.button2r {
+  border-radius: 4px;
+}
+
+.button3r {
+  border-radius: 8px;
+}
+
+.button4r {
+  border-radius: 12px;
+}
+
+.button5r {
+  border-radius: 50%;
+}
+
+/*styles for hoverable buttons*/
+
+.buttonh {
+  background-color: #f5f5f5;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.b1 {
+  border: 2px solid green;
+  color: green;
+}
+
+.button1:hover {
+  background-color: green;
+  color: white;
+}
+
+.b2 {
+  border: 2px solid blue;
+  color: blue;
+}
+
+.button2:hover {
+  background-color: blue;
+  color: white;
+}
+
+.b3 {
+  border: 2px solid red;
+  color: red;
+}
+
+.button3:hover {
+  background-color: red;
+  color: white;
+}
+
+.b4 {
+  border: 2px solid gray;
+  color: gray;
+}
+
+.button4:hover {
+  background-color: gray;
+  color: white;
+}
+
+.b5 {
+  border: 2px solid black;
+}
+
+.button5:hover {
+  background-color: black;
+  color: white;
+}
+
+/*styles for shadow buttons and disabled buttons*/
+
+.button-s_d {
+  width: 170px;
+  background-color: #474646;
+  color: white;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/*styles for shadow buttons only*/
+
+.bts1 {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.bts2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+/*style for disabled buttons only*/
+
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
